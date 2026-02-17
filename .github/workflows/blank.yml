@@ -25,6 +25,16 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
+      # Set up .NET SDK
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      # Build the Learning project
+      - name: Build Learning.csproj
+        run: dotnet build Learning/Learning/Learning.csproj --configuration Release
+
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!

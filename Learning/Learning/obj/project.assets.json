@@ -105,11 +105,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\Example\\Learning\\Learning\\Learning.csproj",
+      "projectUniqueName": "c:\\Workspace\\Example\\ActionsLearning\\Learning\\Learning\\Learning.csproj",
       "projectName": "Learning",
-      "projectPath": "C:\\Workspace\\Example\\Learning\\Learning\\Learning.csproj",
+      "projectPath": "c:\\Workspace\\Example\\ActionsLearning\\Learning\\Learning\\Learning.csproj",
       "packagesPath": "C:\\Users\\james.egan\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\Example\\Learning\\Learning\\obj\\",
+      "outputPath": "c:\\Workspace\\Example\\ActionsLearning\\Learning\\Learning\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
